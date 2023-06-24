@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+
+<html class="
+scroll-smooth
+">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <title>My Website</title>
+    </head>
+
+    <body class="
+    bg-neutral-900
+    font-mono
+    ">
+        <nav class="
+        bg-neutral-800
+        flex
+        fixed
+        justify-between
+        left-0
+        max-md:flex-col max-md:h-12 max-md:py-0 max-md:overflow-hidden
+        px-5
+        py-2.5
+        right-0
+        top-0
+        z-[999]
+        "> 
+            <div class="
+            max-md:flex max-md:flex-row
+            ">
+                <img class="
+                min-[769px]:hidden
+                w-12
+                "src="./img/hamburger-menu.png" alt="">
+
+                <a class="
+                nav-name
+
+                font-bold
+                hover:text-sky-600
+                h-fit
+                my-auto
+                max-md:ml-2.5
+                text-slate-300
+                " href="#home">Kalfin Syah K. M.</a>
+            </div>
+
+            <div class="
+            nav-option
+
+            max-md:flex max-md:flex-col
+            text-slate-400
+            ">
+                <a class="
+                hover:font-bold
+                hover:text-gray-50
+                ml-5
+                max-md:my-1
+                w-fit
+                " href="#home">Home</a>
+                
+                <a class="
+                hover:font-bold
+                hover:text-gray-50
+                ml-5
+                max-md:my-1
+                w-fit
+                " href="#about-me">About Me</a>
+                
+                <a class="
+                hover:font-bold
+                hover:text-gray-50
+                ml-5
+                max-md:my-1
+                w-fit
+                " href="#project">Project</a>
+
+                <a class="
+                hover:font-bold
+                hover:text-gray-50
+                ml-5
+                max-md:mt-1 max-md:mb-3
+                w-fit
+                " href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <!-- dark mode -->
+        <section class="
+        for-theme
+
+        flex flex-row justify-center place-items-center gap-2
+        mt-20 mb-5 mx-auto
+        w-[85vw]
+        ">
+            <h3 class="
+            theme-title
+
+            font-bold
+            text-gray-400
+            ">Theme </h3>
+
+            <div class="
+            slider
+
+            bg-black
+            h-fit
+            rounded-full
+            transition-all
+            w-10
+            ">
+                <img class="
+                balls
+
+                duration-500
+                rounded-full
+                w-[42.5%]
+                " src="./img/dark-mode.png" alt="">
+            </div>
+        </section>
+
+        <!-- hero -->
+        <section class="
+        grid grid-cols-[60vw_25vw]
+        gap-5
+        justify-center
+        max-sm:grid-cols-[85vw]
+        mx-auto
+        " id="home">
+            <div class="
+            mt-3
+            max-sm:justify-self-center
+            ">
+                <h4 class="
+                font-semibold
+                mb-2
+                text-xl
+                text-yellow-800
+                "> 
+                    <span class="
+                  text-red-800">
+                  Hello!</span>
+                My name is</h4>
+
+                <h1 class="
+                name
+
+                font-bold
+                text-3xl
+                text-zinc-400
+                ">Kalfin Syah Kilau Mayya</h1>
+                
+                <h2 class="
+                text-blue-700
+                ">University Student</h2>
+                
+                <p class="
+                my-5
+                text-green-800
+                text-xs
+                ">Go learn things that useful for yourself and the world!</p>
+            
+                <a class="
+                bg-green-800
+                hover:font-bold
+                hover:text-gray-400
+                px-3
+                py-1
+                " href="#contact">Contact Me</a>
+            </div>
+
+            <img class="
+            rounded-full
+            max-sm:justify-self-center max-sm:order-[-1] max-sm:w-40
+            " src="./img/hero-kalfin.JPG" alt="Kalfin Syah K. M.">
+        </section>
+
+        <!-- about -->
+        <section class="
+        bg-slate-800
+        flex flex-col
+        mt-20
+        py-5
+        " id="about-me"> 
+            <h3 class="
+            font-bold
+            m-auto
+            max-sm:mb-5
+            text-3xl
+            text-teal-700
+            w-fit
+            ">About Me</h3>
+
+            <div class="
+            grid grid-cols-[42.5vw_42.5vw]
+            gap-5
+            justify-center
+            mt-5
+            max-sm:flex max-sm:flex-col max-sm:w-[85vw] max-sm:m-auto
+            ">
+                <div class="
+                max-sm:border-l-2
+                text-gray-400
+                ">
+                    <p class="
+                    max-sm:ml-5
+                    text-justify
+                    ">I am a dedicated student with a strong passion for acquiring knowledge in programming languages and engaging in weightlifting exercises. Throughout my academic journey, I have consistently sought opportunities to broaden my understanding and apply my expertise to real-life scenarios.
+                    As an individual committed to continuous learning, I actively seek out diverse perspectives to enhance my educational experience. I find great value in considering different viewpoints, as it allows me to gain a well-rounded understanding of various subjects.
+                    Presently, my focus revolves around expanding my proficiency in programming and further honing my skills in weightlifting exercises. By immersing myself in these disciplines, I aim to develop a comprehensive understanding of programming languages while simultaneously improving my physical strength through weightlifting.
+                    I approach my studies with a disciplined mindset, always striving for personal growth and finding practical applications for the knowledge I acquire. Through this dedication and enthusiasm, I am determined to excel in both programming and weightlifting as I progress on my educational journey.</p>
+                </div>
+
+                <div class="
+                border-l-2
+                pl-5
+                text-zinc-400
+                ">
+                    <h3 class="
+                    font-bold
+                    mb-3
+                    text-lg
+                    text-yellow-500
+                    ">Achievement</h3>
+
+                    <div class="
+                    flex flex-col
+                    ">
+                        <a class="">Coming Soon!</a>
+                    </div>
+                </div>
+
+                <div class="
+                border-l-2
+                pl-5
+                text-zinc-400
+                ">
+                    <h3 class="
+                    font-bold
+                    mb-3
+                    text-lg
+                    text-green-500
+                    ">Experience</h3>
+
+                    <div class="
+                    flex flex-col
+                    ">
+                        <a class="">Coming Soon!</a>
+                    </div>
+                </div>
+
+                <div class="
+                border-l-2
+                pl-5
+                text-zinc-400
+                ">
+                    <h3 class="
+                    font-bold
+                    mb-3
+                    text-lg
+                    text-blue-700
+                    ">Education</h3>
+
+                    <div class="
+                    flex flex-col
+                    ">
+                        <a class="
+                        hover:text-sky-400 hover:font-bold
+                        " href="https://goo.gl/maps/GC3tJNSNh5fmgV5v5" target="_blank">TK Kemala Bhayangkari VII</a>
+                        
+                        <a class="
+                        hover:text-sky-400 hover:font-bold
+                        " href="https://goo.gl/maps/6wZJhYaUNwYBkoAr6" target="_blank">SDN Tanah Kali Kedinding IV</a>
+                        
+                        <a class="
+                        hover:text-sky-400 hover:font-bold
+                        " href="https://goo.gl/maps/gTMPbJcRCg8mwEqm6" target="_blank">SMP YP 17 Surabaya</a>
+                        
+                        <a class="
+                        hover:text-sky-400 hover:font-bold
+                        " href="https://goo.gl/maps/j5aXhXXA2A9j7ce88" target="_blank">SMAN 19 Surabaya</a>
+                        
+                        <a class="
+                        hover:text-sky-400 hover:font-bold
+                        " href="https://goo.gl/maps/sumAVnct3o2ELAdv8" target="_blank">UPN "Veteran" Jawa Timur</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- project -->
+        <section class="
+        mt-20 mx-auto
+        w-fit
+        " id="project">
+            <h3 class="
+            bg-gray-300
+            border-t-2 border-r-2 border-l-2
+            font-bold
+            mx-auto
+            px-5 py-1
+            text-3xl
+            text-teal-700
+            w-fit
+            ">Project</h3>
+
+            <div class="
+            border-t-2 border-r-2 border-b-2 border-l-2
+            grid grid-cols-[28.3vw_28.3vw_28.3vw] gap-5 justify-center
+            max-sm:grid max-sm:grid-cols-[85vw] max-sm:gap-10
+            p-5
+            ">
+                <div>
+                    <a href="https://kalfinsyah.github.io/suwit-jawa.github.io/" target="_blank">
+                        <img src="./img/suwit-jawa.png" alt="">
+                    </a>
+
+                    <a class="
+                    block
+                    my-3 text-center
+                    text-stone-400
+                    " href="https://kalfinsyah.github.io/suwit-jawa.github.io/" target="_blank">Suwit Jawa</a>
+
+                    <p class="
+                    bg-stone-400
+                    p-3
+                    ">I made this game with JavaScript Document Object Model</p>
+                </div>
+
+                <div class="">
+                    <a href="https://kalfinsyah.github.io/simple-calculator-online.github.io/" target="_blank">
+                        <img class="
+                        w-[100%]
+                        " src="./img/simple-calculator-online.png" alt="Vaksinmen image">
+                    </a>
+
+                    <a class="
+                    block
+                    my-3 text-center
+                    text-stone-400
+                    " href="https://kalfinsyah.github.io/simple-calculator-online.github.io/" target="_blank">Simple Calculator Online</a>
+
+                    <p class="
+                    bg-stone-400
+                    p-3
+                    ">I made this simple calculator with JavaScript Document Object Model</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section class="
+        mt-20
+        border-t-2
+        bg-green-900
+        px-5 py-3
+        " id="contact">
+            <div class="
+            flex flex-col
+            ">
+                <h3 class="
+                font-bold
+                text-xl
+                text-gray-400
+                w-fit
+                ">Contact Me</h3>
+                <a class="
+                hover:text-zinc-900
+                w-fit
+                " href="https://mail.google.com/mail/u/0/#search/kalfinsyah.km%40gmail.com" target="_blank">kalfinsyah.km@gmail.com</a>
+                <a class="
+                hover:text-zinc-900
+                w-fit
+                " href="https://goo.gl/maps/5rAeTudzBpnFG9W26" target="_blank">Jl. Kedinding Lor Gg. Palem I No.50</a>
+                <a class="
+                hover:text-zinc-900
+                w-fit
+                " href="https://goo.gl/maps/Zgw4yKj1Ft6fZj6v7" target="_blank">Surabya</a>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <section class="
+        border-t-2
+        bg-red-900
+        px-5 py-3
+        ">
+            <div class="
+            flex flex-col
+            pt-3
+            ">
+                <div class="
+                flex flex-row justify-center 
+                ">
+                    <a class="
+                    mr-3             
+                    w-fit
+                    " href="https://www.instagram.com/kalfin_syah/" target="_blank">
+                        <img class="
+                        h-8
+                        hover:grayscale-0
+                        grayscale
+                        w-8
+                        " src="./img/instagram.png" alt="Instagram">
+                    </a>
+
+                    <a class="   
+                    mr-3           
+                    w-fit
+                    " href="https://github.com/KalfinSyah" target="_blank">
+                        <img class="
+                        bg-white bg-opacity-0
+                        h-8
+                        hover:bg-opacity-100 rounded-full
+                        w-8
+                        " src="./img/git-hub.png" alt="Git-Hub">
+                    </a>
+                </div>
+
+                <p class="
+                mt-2.5
+                text-gray-400
+                text-center
+                ">Copyright © 2023 Kalfin Syah Kilau Mayya.</p>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
