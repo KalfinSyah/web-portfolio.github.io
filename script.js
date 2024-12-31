@@ -11,7 +11,6 @@ hamburger.addEventListener('click', function(){
 // theme
 const body = document.querySelector('body');
 const navigation = document.querySelector('nav');
-const nav_name = document.querySelector('.nav-name');
 const nav_option = document.querySelector('.nav-option');
 const nav_option_childs = nav_option.children;
 const nav_option_childs_array = [];
@@ -27,7 +26,6 @@ for(let i = 0; i < nav_option_childs.length; i++) {
 
 slider.addEventListener('click',function(){
     body.classList.toggle('bg-gray-200');
-    nav_name.classList.toggle('text-gray-800')
     nav_option_childs_array.forEach(element => {
         element.classList.toggle('text-gray-800');
     });
